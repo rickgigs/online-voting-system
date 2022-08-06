@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+    <style type="text/css">
+        body{
+            text-align: center;
+            background-color: #C3FFA7;
+        }
+
+#image{
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 30%;
+
+}
+
+#headersection{
+    padding: 5px;
+
+}
+
+#headersection h1{
+    font-family: cursive;
+
+}
+
+input{
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#dropbox{
+    padding: 10px;
+    border-radius: 5px;
+    width: 15%;
+}
+#loginbtn{
+    padding: 5px;
+    font-size: 15px;
+    background-color: #349;
+    color: white;
+    border-radius: 5px;
+}
+#adress{
+    width: 30%;
+}
+
+#imagepart{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    width: 30%;
+    
+}
+#role{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    width: 30%;  
+}
+#role select{
+    border-radius: 5px;
+    padding: 10px;
+}
+
+    </style>
+
+</head>
+<body>
+  <div id="headersection">
+      <h1>online voting system</h1>
+  </div>  
+  <hr>
+<div id="bodysection">
+    <h2>log in</h2>
+    <form action="#">
+        <input type="text" name="name" placeholder="enter name" required>
+        <input type="number" name="mobile" placeholder="enter mobile" maxlength="10" > <br><br>
+        <input type="password" name="password" placeholder="password" maxlength="6">
+        <input type="password" name="cpassword" placeholder="comfirm password" maxlength="6" > <br><br>
+        
+        <input id="adress" type="text" name="adress" placeholder="adress" required><br><br>
+        <center>
+        <div id="imagepart">
+            apload image: <input type="file" name="photo"> 
+        </div>
+        <br><br>
+        <div id="role">
+            select your role: <select name="role" id="dropbox">
+                <option value="1"> voter</option>
+                <option value="2">group</option>
+    
+            </select>
+        </div>
+        </center>
+        <br>
+    
+       
+    
+        <button 
+        style="  padding: 5px;
+        font-size: 15px;
+        background-color: #349;
+        color: white;
+        border-radius: 5px;">
+        register </button><br><br>
+        already user <a href="index.html"> log in here</a>
+
+
+    </form>
+</div>
+
+
+
+
+</body>
+</html>

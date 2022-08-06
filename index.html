@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>online voting</title>
+    <style type="text/css">
+
+body{
+    text-align: center;
+    background-color:#C3FFA7;
+
+}
+#headersection{
+
+    padding: 5px ;
+
+}
+
+#headersection h1{
+    font-family: cursive;
+}
+input{
+    padding: 10px;
+    border-radius: 5px;
+}
+#dropbox{
+    padding: 10px;
+    border-radius: 5px;
+    width: 15%;
+}
+#loginbtn{
+    padding: 5px;
+    border-radius: 5px;
+    border: blue;
+    color: violet;
+
+}
+
+
+
+
+    </style>
+
+</head>
+<body>
+   <div id="headersection">
+    <h1>online voting system</h1>
+    <hr>
+
+   </div> 
+   
+   <div id="bodysection"></div>
+   <form action="../api/register.php" method="post">
+       <h2>log in</h2>
+       <input type="number" = name "mobile" placeholder=" enter mobile"> <br> <br>
+       <input type="password" = name "password" placeholder="enter password"> <br><br>
+       <select name="role" id="dropbox">
+           <option value="1">voter</option>
+           <option value="2">group</option>
+
+       </select><br><br>
+       <button id="loginbtn">log in</button><br><br>
+       new user! <a href="register.html"> register here</a>
+
+
+
+
+
+   </form>
+
+
+
+
+</body>
+</html>
